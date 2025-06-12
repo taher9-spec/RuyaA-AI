@@ -17,7 +17,8 @@
     "strict": false,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["vitest", "node"]
   },
   "include": ["src"],
   "exclude": [],
