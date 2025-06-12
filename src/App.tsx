@@ -10,7 +10,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-        {import.meta.env.VITE_TEMPO === "true" && useRoutes(routes)}
+          {/* eslint-disable-next-line react-hooks/rules-of-hooks */}
+          {import.meta.env.VITE_TEMPO === "true" && useRoutes(routes)}
       </>
     </Suspense>
   );
